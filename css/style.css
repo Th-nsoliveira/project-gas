@@ -159,6 +159,7 @@ span{
     }
     input{
         width: 100%;
+        font-size: 16px;
     }
     button{
         width: 100%;
