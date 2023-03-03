@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container1{
+    max-width: 1001px;
+    margin: 0 auto;
+}
+
+.container2{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+h1{
+    color: white;
+    font-size: 48px;
+    margin-bottom: 13px;
+}
+
+h2{
+    color: white;
+    font-size: 32px;
+}
+
+h3{
+    color: #555555;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+p{
+    color: #555555;  
+    font-size: 16px;
+}
+
+.hero{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 81px 0;
+}
+
+.content{
+    padding: 80px 0;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+label{
+    color: #555555;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+input{
+    width: 300px;
+    border: 1px solid #CCCCCC;
+    padding: 4px 4px;
+    margin-bottom: 16px;
+}
+
+button{
+    width: 130px;
+    padding: 6px 0;
+    border: none;
+    border-radius: 3px;
+    background-color: #003366;
+    color: white;
+}
+
+.resultado{
+    width: 350px;
+    padding:22px 0;
+    background-color: #0066CC;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display:none;
+    box-shadow: 1px 1px 10px #666;
+}
+
+.show-result{
+    display: flex !important;
+}
+
+.resultado h3{
+    color: white;
+}
+
+.resultado span{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+footer{
+    background-color: #003366;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+}
+
+
+span{
+    color: white;
+    font-size: 14px;
+}
+
+@media(max-width:778px){
+
+    .form{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .resultado{
+        width: 100%;
+    }
+    form{
+        max-width: 100%;
+    }
+    input{
+        width: 100%;
+    }
+    button{
+        width: 100%;
+        font-size: 16px;
+    }
+    .container1{
+        padding: 0 15px;
+    }
+    .container2{
+        padding: 0 15px;
+    }
+
+
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Etanol x Gasolina</title>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="container1">
+            <h1>Etanol x Gasolina</h1>
+            <h2>Compare o preço do litro do álcool com o da gasolina e veja qual deles é mais vantajoso financeiramente.
+            </h2>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container2">
+            <h3>O Etanol vale a pena quando custar até 70% do valor da Gasolina</h3>
+            <p>Preencha os campos abaixo com os preços dos combustíveis que você encontra hoje nos postos e clique no
+                botão “calcular” para saber qual é a melhor opção.
+            </p>
+
+            <div class="form">
+                <form autocomplete="off">
+                    <label for="">Informe o preço do etanol</label>
+                    <input type="tel"  id="etanol" placeholder="Ex: 4.50">
+                    <label for="">Informe o preço da gasolina</label>
+                    <input type="tel" id="gasolina" placeholder="Ex: 5.00">
+                    <button type="button" id="btn">Calcular</button>
+                </form>
+
+                <div class="resultado">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <span>Projeto desenvolvido por Thiago</span>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("#etanol").mask("00.00",{reverse: true});
+            $("#gasolina").mask("00.00",{reverse: true});
+        })
+    </script> 
+</body>
+
+</html>
