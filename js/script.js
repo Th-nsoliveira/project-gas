@@ -23,7 +23,17 @@ function preco(){
 }
 
 var btn=document.querySelector('#btn');
+var gasolina=document.querySelector('#gasolina');
+
 
 btn.addEventListener('click', function(){
     preco();
+})
+
+
+
+gasolina.addEventListener('keyup',function(e){
+    if(e.key == 'Enter'){
+        preco();
+    }
 })
