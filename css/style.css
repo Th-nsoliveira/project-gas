@@ -128,6 +128,18 @@ span{
 
 @media(max-width:778px){
 
+    h1{
+        font-size: 32px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .hero{
+        padding: 60px 0;
+    }
+
     .form{
         flex-direction: column;
         row-gap: 20px;
