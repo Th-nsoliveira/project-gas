@@ -44,10 +44,11 @@ p{
     background-size: cover;
     text-align: center;
     padding: 81px 0;
+    height: 40vh;
 }
 
 .content{
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
 .form{
